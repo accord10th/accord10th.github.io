@@ -1,0 +1,37 @@
+# Site settings
+name: 前端博客站
+email: hemingyeah@126.com
+author: hemingyeah
+url: http://hemingyeah.github.io
+resume_site: http://hemingyeah.github.io
+github: https://github.com/hemingyeah
+baseurl: ""
+description: 使你痛苦者必使你成长!
+meta_description: 学而不思则罔;思而不学则殆;生命不止;折腾不休
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+# paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: luoyan35714
+highlighter: Pygments
+
+# Build settings
+markdown: kramdown
+
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : luoyan35714
+    disqus :
+        short_name : hemingyeah
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
